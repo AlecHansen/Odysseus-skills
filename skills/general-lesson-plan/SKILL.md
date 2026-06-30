@@ -1,6 +1,6 @@
 ---
 name: create-generic-lesson-plan
-description
+description: 'Lag tydelige, praktiske og realistiske undervisningsopplegg på tvers av fag.'
 ---
 
 # Lag generelt undervisningsopplegg
