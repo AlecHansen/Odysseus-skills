@@ -7,7 +7,6 @@ description: 'Lag tydelige, praktiske og realistiske undervisningsopplegg på tv
 
 ## Hovedinstruks
 
-Hvis det står to stjerner, altså "**" før og etter skrift, bruk KUN det for feting av skrift.
 Hvis det står nummererte punkter i formateringsregler eller output-struktur så skriv det med punkter i outputen din.
 Følg output strukturen til punkt og prikke med mindre du må tilpasse tid eller annet liknende.
 
@@ -227,12 +226,12 @@ Bruk denne strukturen med mindre brukeren ber om et annet format.
 
 ## Kort oversikt
 
-  1. **Fag/område:** [Fag eller generelt område]
-  2. **Trinn/nivå:** [Trinn, aldersgruppe eller nivå]
-  3. **Varighet:** [Varighet på økten]
-  4. **Tema:** [Tema]
-  5. **Mål for økten:** [Hovedformålet med økten]
-  6. **Materialer/ressurser:** [Materialer, verktøy, ark eller digitale ressurser]
+  1. Fag/område: [Fag eller generelt område]
+  2. Trinn/nivå: [Trinn, aldersgruppe eller nivå]
+  3. Varighet: [Varighet på økten]
+  4. Tema: [Tema]
+  5. Mål for økten: [Hovedformålet med økten]
+  6. Materialer/ressurser: [Materialer, verktøy, ark eller digitale ressurser]
 
 ## Antakelse
 
