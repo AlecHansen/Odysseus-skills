@@ -7,8 +7,9 @@ description: 'Create clear, practical, and realistic lesson plans across subject
 
 ## Primary Directive
 
-If there are numbered points in formatting rules or output structure, write them as bullet points in your output.
+If there are points in formatting rules or output structure, write them as bullet points in your output.
 Follow the output structure exactly unless you need to adapt timing or something similar.
+Do not use slanted text.
 
 Your goal is to create a clear, practical, realistic, and structured lesson plan for `${input:PlanPurpose}`.
 
@@ -22,34 +23,34 @@ This skill is designed to create general lesson plans across subjects.
 
 Use this skill when the user asks for:
 
-- a single lesson
-- a double lesson
-- a weekly plan
-- a unit plan
-- a classroom activity
-- group work
-- station-based learning
-- a revision lesson
-- an introductory lesson
-- a practical lesson
-- an outdoor lesson
-- an assessment activity
+  - a single lesson
+  - a double lesson
+  - a weekly plan
+  - a unit plan
+  - a classroom activity
+  - group work
+  - station-based learning
+  - a revision lesson
+  - an introductory lesson
+  - a practical lesson
+  - an outdoor lesson
+  - an assessment activity
 
 Use this skill as a general base skill. More specific subject skills can build on top of this skill.
 
 ## Core Requirements
 
-- Create lesson plans that are practical to use in a real classroom.
-- Use clear headings, short sections, tables, and bullet points.
-- Keep the plan realistic for the given time frame.
-- Include what the teacher does and what the students do.
-- Include student activity, not only teacher explanation.
-- Include differentiation for different student needs.
-- Include simple assessment during the lesson.
-- Include a clear beginning, middle, and ending.
-- Avoid unnecessary theory unless the user asks for it.
-- Do not create too many learning objectives.
-- Do not overload the lesson plan with too many activities.
+  - Create lesson plans that are practical to use in a real classroom.
+  - Use clear headings, short sections, tables, and bullet points.
+  - Keep the plan realistic for the given time frame.
+  - Include what the teacher does and what the students do.
+  - Include student activity, not only teacher explanation.
+  - Include differentiation for different student needs.
+  - Include simple assessment during the lesson.
+  - Include a clear beginning, middle, and ending.
+  - Avoid unnecessary theory unless the user asks for it.
+  - Do not create too many learning objectives.
+  - Do not overload the lesson plan with too many activities.
 
 ## Input Handling
 
@@ -57,20 +58,20 @@ If the user provides specific details, use them actively.
 
 Relevant details may include:
 
-- subject
-- grade level
-- student age
-- duration
-- topic
-- learning objectives
-- available materials
-- digital tools
-- student needs
-- class size
-- assessment type
-- teaching method
-- language
-- curriculum goals or curriculum requirements
+  - subject
+  - grade level
+  - student age
+  - duration
+  - topic
+  - learning objectives
+  - available materials
+  - digital tools
+  - student needs
+  - class size
+  - assessment type
+  - teaching method
+  - language
+  - curriculum goals or curriculum requirements
 
 If the user gives little information, make reasonable assumptions and state them briefly.
 
@@ -86,11 +87,11 @@ Example assumption:
 
 The teacher should quickly understand:
 
-- what the lesson is about
-- what the students should learn
-- what needs to be prepared
-- what happens step by step
-- how the lesson can be adapted
+  - what the lesson is about
+  - what the students should learn
+  - what needs to be prepared
+  - what happens step by step
+  - how the lesson can be adapted
 
 ### Keep the lesson realistic
 
@@ -98,10 +99,10 @@ Do not include too many activities.
 
 For a 45-minute lesson, preferably use:
 
-- 10 minutes for introduction and overview of what will happen in the lesson
-- 10 minutes for modelling or a shared example
-- 20 minutes for student activity
-- 5 minutes for summary and assessment
+  - 10 minutes for introduction and overview of what will happen in the lesson
+  - 10 minutes for modelling or a shared example
+  - 20 minutes for student activity
+  - 5 minutes for summary and assessment
 
 For longer lessons, add more time for exploration, collaboration, sharing, and student reflection.
 
@@ -111,13 +112,13 @@ Begin with something the students can understand quickly.
 
 Useful starts include:
 
-- an open question
-- an image
-- a short discussion
-- a concrete example
-- a simple demonstration
-- a quick task
-- a situation the students recognize
+  - an open question
+  - an image
+  - a short discussion
+  - a concrete example
+  - a simple demonstration
+  - a quick task
+  - a situation the students recognize
 
 ### Model before independent work
 
@@ -125,21 +126,21 @@ If students are doing something new, the teacher should model it first.
 
 The teacher can use phrases such as:
 
-- "First, I look for..."
-- "Here, I choose to..."
-- "I can check whether this is correct by..."
-- "Now I try a different strategy..."
+  - "First, I look for..."
+  - "Here, I choose to..."
+  - "I can check whether this is correct by..."
+  - "Now I try a different strategy..."
 
 ### Make students active
 
 A good lesson plan should include:
 
-- a clear start
-- short teacher input
-- a clear task
-- student work
-- teacher guidance
-- shared summary
+  - a clear start
+  - short teacher input
+  - a clear task
+  - student work
+  - teacher guidance
+  - shared summary
 
 Avoid lesson plans where the teacher talks for most of the lesson.
 
@@ -157,66 +158,18 @@ Use concrete wording such as:
 
 The plan should encourage students to:
 
-- explain
-- justify
-- explore
-- compare
-- test
-- improve
-- collaborate
-- reflect
+  - explain
+  - justify
+  - explore
+  - compare
+  - test
+  - improve
+  - collaborate
+  - reflect
 
 ## Formatting Rules
 
 Use clean and simple Markdown formatting.
-
-Always follow these rules:
-
-- Use headings with `##` and `###`.
-- Use bullet points with `-` followed by one space.
-- Always add an empty line before and after bullet lists.
-- Do not use italic text.
-- Do not use `*text*` or `_text_`.
-- Do not use decorative formatting.
-- Do not use bold and italic formatting together.
-- Use plain text for teacher descriptions and student descriptions.
-- Keep paragraphs short and easy to read.
-- Use clear headings so the plan becomes easy to navigate.
-
-## Table Rules
-
-Use a table when showing the lesson sequence, but keep the table tidy and easy to read.
-
-Always follow these table rules:
-
-- Use a Markdown table for the lesson sequence.
-- Keep each table cell short.
-- Do not write long paragraphs in table cells.
-- Use short phrases instead of long explanations in the table.
-- Put detailed explanations below the table, not inside the table.
-- Do not use italic text in tables.
-- Do not use `*text*` or `_text_`.
-- Do not use line breaks inside table cells.
-- Do not use bullet points inside table cells.
-- If a table cell needs more than one short sentence, move the explanation below the table.
-- Make sure every row has the same number of columns.
-- Use `|` correctly between columns.
-
-## Strict Formatting Rules
-
-Follow these rules in all responses:
-
-- Use clean Markdown.
-- Always use bullet lists with `- ` when listing goals, materials, adaptations, assessment, or follow-up work.
-- Add an empty line before and after all bullet lists.
-- Do not use italic text.
-- Do not use `*text*`.
-- Do not use `_text_`.
-- Do not use decorative formatting.
-- Do not write individual list items as normal sentences.
-- Do not end the response with a question to the user.
-- Do not write apologies or explanations about formatting.
-- Respond only with the lesson plan itself.
 
 ## Mandatory Output Structure
 
@@ -226,12 +179,12 @@ Use this structure unless the user asks for another format.
 
 ## Quick Overview
 
-- Subject/area: [Subject or general area]
-- Grade/level: [Grade, age group, or level]
-- Duration: [Lesson duration]
-- Topic: [Topic]
-- Lesson goal: [Main purpose of the lesson]
-- Materials/resources: [Materials, tools, worksheets, or digital resources]
+  - Subject/area: [Subject or general area]
+  - Grade/level: [Grade, age group, or level]
+  - Duration: [Lesson duration]
+  - Topic: [Topic]
+  - Lesson goal: [Main purpose of the lesson]
+  - Materials/resources: [Materials, tools, worksheets, or digital resources]
 
 ## Assumption
 
@@ -245,9 +198,9 @@ If no assumptions are needed, write:
 
 Students will be able to:
 
-- [Learning objective 1]
-- [Learning objective 2]
-- [Learning objective 3]
+  - [Learning objective 1]
+  - [Learning objective 2]
+  - [Learning objective 3]
 
 Use 2-4 learning objectives.
 
@@ -257,9 +210,9 @@ The objectives must be concrete and understandable for both teachers and student
 
 The teacher should prepare:
 
-- [Preparation 1]
-- [Preparation 2]
-- [Preparation 3]
+  - [Preparation 1]
+  - [Preparation 2]
+  - [Preparation 3]
 
 ## Lesson Sequence
 
@@ -276,34 +229,34 @@ Adjust the timing so it fits the duration of the lesson.
 
 Students will:
 
-- [Step 1]
-- [Step 2]
-- [Step 3]
+  - [Step 1]
+  - [Step 2]
+  - [Step 3]
 
 The teacher should look for:
 
-- [What should be observed]
-- [Common difficulty]
-- [Signs of understanding]
+  - [What should be observed]
+  - [Common difficulty]
+  - [Signs of understanding]
 
 The teacher can support students by:
 
-- [Support strategy 1]
-- [Support strategy 2]
-- [Support strategy 3]
+  - [Support strategy 1]
+  - [Support strategy 2]
+  - [Support strategy 3]
 
 ## Questions the Teacher Can Ask
 
 Use 4-8 questions or create similar ones:
 
-- What do you notice?
-- How did you figure that out?
-- Can you explain it in another way?
-- What happens if we change something?
-- What are you sure about?
-- What are you unsure about?
-- Which strategy did you use?
-- What would you do differently next time?
+  - What do you notice?
+  - How did you figure that out?
+  - Can you explain it in another way?
+  - What happens if we change something?
+  - What are you sure about?
+  - What are you unsure about?
+  - Which strategy did you use?
+  - What would you do differently next time?
 
 Adapt the questions to the actual topic of the lesson.
 
@@ -311,23 +264,23 @@ Adapt the questions to the actual topic of the lesson.
 
 ### More Support
 
-- [Support option 1]
-- [Support option 2]
-- [Support option 3]
+  - [Support option 1]
+  - [Support option 2]
+  - [Support option 3]
 
 ### Expected Level
 
-- [Task at expected level 1]
-- [Task at expected level 2]
-- [Task at expected level 3]
+  - [Task at expected level 1]
+  - [Task at expected level 2]
+  - [Task at expected level 3]
 
 ## Assessment During the Lesson
 
 The teacher can assess learning through:
 
-- [Observation point]
-- [Question or discussion]
-- [Small product, answer, explanation, or exit ticket]
+  - [Observation point]
+  - [Question or discussion]
+  - [Small product, answer, explanation, or exit ticket]
 
 Keep the assessment practical and connected to the learning objectives and lesson structure.
 
@@ -335,43 +288,43 @@ Keep the assessment practical and connected to the learning objectives and lesso
 
 End the lesson by:
 
-- [Ending activity]
-- [Reflection question]
-- [Connection to the next lesson]
+  - [Ending activity]
+  - [Reflection question]
+  - [Connection to the next lesson]
 
 ## Follow-Up Work
 
 Possible next steps:
 
-- [Follow-up idea 1]
-- [Follow-up idea 2]
-- [Follow-up idea 3]
+  - [Follow-up idea 1]
+  - [Follow-up idea 2]
+  - [Follow-up idea 3]
 
 ## Quality Rules
 
 Before finalizing the lesson plan, check that it has:
 
-- a clear topic
-- appropriate grade level
-- realistic timing
-- concrete activities
-- clear teacher role
-- clear student role
-- differentiation
-- assessment during the lesson
-- a simple ending
-- no unnecessary filler text
+  - a clear topic
+  - appropriate grade level
+  - realistic timing
+  - concrete activities
+  - clear teacher role
+  - clear student role
+  - differentiation
+  - assessment during the lesson
+  - a simple ending
+  - no unnecessary filler text
 
 Before finalizing the lesson plan, check that:
 
-- Use a table for the lesson sequence.
-- Keep table cells short and tidy.
-- Do not write long paragraphs in the table.
-- Do not use italic text.
-- Do not use `*text*` or `_text_`.
-- Do not use bullet points inside the table.
-- Add details below the table instead if something needs more explanation.
-- Check that the table has the same number of columns in each row.
+  - Use a table for the lesson sequence.
+  - Keep table cells short and tidy.
+  - Do not write long paragraphs in the table.
+  - Do not use italic text.
+  - Do not use `*text*` or `_text_`.
+  - Do not use bullet points inside the table.
+  - Add details below the table instead if something needs more explanation.
+  - Check that the table has the same number of columns in each row.
 
 If something is missing, add it before giving the final response.
 
@@ -379,13 +332,13 @@ If something is missing, add it before giving the final response.
 
 Avoid:
 
-- lesson plans that are too long
-- too many learning objectives
-- unclear activities
-- generic teaching phrases
-- unrealistic timing
-- lesson plans where the teacher does all the work
-- assessment that takes over the lesson
-- too many tools or materials at once
-- activities that do not connect to the goal of the lesson
-- academic language that does not help the teacher
+  - lesson plans that are too long
+  - too many learning objectives
+  - unclear activities
+  - generic teaching phrases
+  - unrealistic timing
+  - lesson plans where the teacher does all the work
+  - assessment that takes over the lesson
+  - too many tools or materials at once
+  - activities that do not connect to the goal of the lesson
+  - academic language that does not help the teacher
