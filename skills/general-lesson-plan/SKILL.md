@@ -7,6 +7,10 @@ description: 'Lag tydelige, praktiske og realistiske undervisningsopplegg på tv
 
 ## Hovedinstruks
 
+Hvis det står to stjerner, altså "**" før og etter skrift, bruk KUN det for feting av skrift.
+Hvis det står nummererte punkter i formateringsregler eller output-struktur så skriv det med punkter i outputen din.
+Følg output strukturen til punkt og prikke med mindre du må tilpasse tid eller annet liknende.
+
 Målet ditt er å lage et tydelig, praktisk, realistisk og strukturert undervisningsopplegg for `${input:PlanPurpose}`.
 
 Undervisningsopplegget må være enkelt for en lærer å forstå, tilpasse og bruke i et ekte klasserom.
@@ -19,34 +23,34 @@ Dette skillet er laget for å lage generelle undervisningsopplegg på tvers av f
 
 Bruk dette skillet når brukeren ber om:
 
-- en enkelttime
-- en dobbeltime
-- en ukeplan
-- en periodeplan
-- en klasseaktivitet
-- gruppearbeid
-- stasjonsundervisning
-- en repetisjonsøkt
-- en introduksjonsøkt
-- en praktisk økt
-- en uteskoleøkt
-- en vurderingsaktivitet
+  1. en enkelttime
+  2. en dobbeltime
+  3. en ukeplan
+  4. en periodeplan
+  5. en klasseaktivitet
+  6. gruppearbeid
+  7. stasjonsundervisning
+  8. en repetisjonsøkt
+  9. en introduksjonsøkt
+  10. en praktisk økt
+  11. en uteskoleøkt
+  12. en vurderingsaktivitet
 
 Bruk dette skillet som et generelt grunnskill. Mer spesifikke fag-skills kan bygge videre på dette skillet.
 
 ## Grunnkrav
 
-- Lag undervisningsopplegg som er praktiske å bruke i et ekte klasserom.
-- Bruk tydelige overskrifter, korte seksjoner, tabeller og punktlister.
-- Hold planen realistisk for den gitte tidsrammen.
-- Inkluder hva læreren gjør og hva elevene gjør.
-- Inkluder elevaktivitet, ikke bare lærerforklaring.
-- Inkluder tilpasning for ulike elevbehov.
-- Inkluder enkel vurdering underveis i timen.
-- Inkluder en tydelig start, hoveddel og avslutning.
-- Unngå unødvendig teori med mindre brukeren ber om det.
-- Ikke lag for mange læringsmål.
-- Ikke overfyll opplegget med for mange aktiviteter.
+  1. Lag undervisningsopplegg som er praktiske å bruke i et ekte klasserom.
+  2. Bruk tydelige overskrifter, korte seksjoner, tabeller og punktlister.
+  3. Hold planen realistisk for den gitte tidsrammen.
+  4. Inkluder hva læreren gjør og hva elevene gjør.
+  5. Inkluder elevaktivitet, ikke bare lærerforklaring.
+  6. Inkluder tilpasning for ulike elevbehov.
+  7. Inkluder enkel vurdering underveis i timen.
+  8. Inkluder en tydelig start, hoveddel og avslutning.
+  9. Unngå unødvendig teori med mindre brukeren ber om det.
+  10. Ikke lag for mange læringsmål.
+  11. Ikke overfyll opplegget med for mange aktiviteter.
 
 ## Håndtering av input
 
@@ -54,20 +58,20 @@ Hvis brukeren gir spesifikke detaljer, bruk dem aktivt.
 
 Relevante detaljer kan inkludere:
 
-- fag
-- trinn
-- elevenes alder
-- varighet
-- tema
-- læringsmål
-- tilgjengelige materialer
-- digitale verktøy
-- elevbehov
-- klassestørrelse
-- vurderingsform
-- undervisningsmetode
-- språk
-- kompetansemål eller læreplankrav
+  1. fag
+  2. trinn
+  3. elevenes alder
+  4. varighet
+  5. tema
+  6. læringsmål
+  7. tilgjengelige materialer
+  8. digitale verktøy
+  9. elevbehov
+  10. klassestørrelse
+  11. vurderingsform
+  12. undervisningsmetode
+  13. språk
+  14. kompetansemål eller læreplankrav
 
 Hvis brukeren gir lite informasjon, gjør rimelige antakelser og skriv dem kort.
 
@@ -83,11 +87,11 @@ Eksempel på antakelse:
 
 Læreren skal raskt forstå:
 
-- hva timen handler om
-- hva elevene skal lære
-- hva som må forberedes
-- hva som skjer steg for steg
-- hvordan opplegget kan tilpasses
+  1. hva timen handler om
+  2. hva elevene skal lære
+  3. hva som må forberedes
+  4. hva som skjer steg for steg
+  5. hvordan opplegget kan tilpasses
 
 ### 2. Hold opplegget realistisk
 
@@ -95,10 +99,10 @@ Ikke inkluder for mange aktiviteter.
 
 For en 45-minutters økt, bruk helst:
 
-- 10 minutter til introduksjon og oppsummering av hva som skal skje i timen
-- 10 minutter til modellering eller felles eksempel
-- 20 minutter til elevaktivitet
-- 5 minutter til oppsummering og vurdering
+  1. 10 minutter til introduksjon og oppsummering av hva som skal skje i timen
+  2. 10 minutter til modellering eller felles eksempel
+  3. 20 minutter til elevaktivitet
+  4. 5 minutter til oppsummering og vurdering
 
 For lengre økter, legg inn mer tid til utforsking, samarbeid, deling og refleksjon fra elevene.
 
@@ -108,13 +112,13 @@ Begynn med noe elevene raskt kan forstå.
 
 Nyttige starter inkluderer:
 
-- et åpent spørsmål
-- et bilde
-- en kort samtale
-- et konkret eksempel
-- en enkel demonstrasjon
-- en rask oppgave
-- en situasjon elevene kjenner igjen
+  1. et åpent spørsmål
+  2. et bilde
+  3. en kort samtale
+  4. et konkret eksempel
+  5. en enkel demonstrasjon
+  6. en rask oppgave
+  7. en situasjon elevene kjenner igjen
 
 ### 4. Modellér før selvstendig arbeid
 
@@ -122,21 +126,21 @@ Hvis elevene skal gjøre noe nytt, bør læreren modellere det først.
 
 Læreren kan bruke formuleringer som:
 
-- "Først ser jeg etter..."
-- "Her velger jeg å..."
-- "Jeg kan sjekke om dette stemmer ved å..."
-- "Nå prøver jeg en annen strategi..."
+  1. "Først ser jeg etter..."
+  2. "Her velger jeg å..."
+  3. "Jeg kan sjekke om dette stemmer ved å..."
+  4. "Nå prøver jeg en annen strategi..."
 
 ### 5. Gjør elevene aktive
 
 Et godt opplegg bør inkludere:
 
-- en tydelig start
-- kort lærerinput
-- en tydelig oppgave
-- elevarbeid
-- lærerveiledning
-- felles oppsummering
+  1. en tydelig start
+  2. kort lærerinput
+  3. en tydelig oppgave
+  4. elevarbeid
+  5. lærerveiledning
+  6. felles oppsummering
 
 Unngå opplegg der læreren snakker mesteparten av timen.
 
@@ -154,14 +158,14 @@ Bruk konkrete formuleringer som:
 
 Planen bør oppmuntre elevene til å:
 
-- forklare
-- begrunne
-- utforske
-- sammenligne
-- teste
-- forbedre
-- samarbeide
-- reflektere
+  1. forklare
+  2. begrunne
+  3. utforske
+  4. sammenligne
+  5. teste
+  6. forbedre
+  7. samarbeide
+  8. reflektere
 
 ## Formateringsregler
 
@@ -169,16 +173,16 @@ Bruk ren og enkel Markdown-formatering.
 
 Følg alltid disse reglene:
 
-- Bruk overskrifter med `##` og `###`.
-- Bruk punktlister med `-` etterfulgt av ett mellomrom.
-- Ha alltid en tom linje før og etter punktlister.
-- Ikke bruk skrå skrift.
-- Ikke bruk `*tekst*` eller `_tekst_`.
-- Ikke bruk dekorativ formatering.
-- Ikke bruk fet og skrå skrift sammen.
-- Bruk vanlig tekst til lærerbeskrivelser og elevbeskrivelser.
-- Hold avsnitt korte og lette å lese.
-- Bruk tydelige overskrifter slik at opplegget blir oversiktlig.
+  1. Bruk overskrifter med `##` og `###`.
+  2. Bruk punktlister med tall etterfulgt av ett mellomrom.
+  3. Ha alltid en tom linje før og etter punktlister.
+  4. Ikke bruk skrå skrift.
+  5. Ikke bruk `*tekst*` eller `_tekst_`.
+  6. Ikke bruk dekorativ formatering.
+  7. Ikke bruk fet og skrå skrift sammen.
+  8. Bruk vanlig tekst til lærerbeskrivelser og elevbeskrivelser.
+  9. Hold avsnitt korte og lette å lese.
+  10. Bruk tydelige overskrifter slik at opplegget blir oversiktlig.
 
 ## Tabellregler
 
@@ -186,34 +190,34 @@ Bruk tabell når du viser gjennomføringen av timen, men hold tabellen ryddig og
 
 Følg alltid disse reglene for tabeller:
 
-- Bruk Markdown-tabell for gjennomføringen av undervisningsopplegget.
-- Hold hver tabellcelle kort.
-- Ikke skriv lange avsnitt i tabellceller.
-- Bruk korte formuleringer i stedet for lange forklaringer i tabellen.
-- Legg detaljerte forklaringer under tabellen, ikke inni tabellen.
-- Ikke bruk skrå skrift i tabeller.
-- Ikke bruk `*tekst*` eller `_tekst_`.
-- Ikke bruk linjeskift inni tabellceller.
-- Ikke bruk punktlister inni tabellceller.
-- Hvis en tabellcelle trenger mer enn én kort setning, flytt forklaringen under tabellen.
-- Sørg for at hver rad har samme antall kolonner.
-- Bruk `|` riktig mellom kolonnene.
+  1. Bruk Markdown-tabell for gjennomføringen av undervisningsopplegget.
+  2. Hold hver tabellcelle kort.
+  3. Ikke skriv lange avsnitt i tabellceller.
+  4. Bruk korte formuleringer i stedet for lange forklaringer i tabellen.
+  5. Legg detaljerte forklaringer under tabellen, ikke inni tabellen.
+  6. Ikke bruk skrå skrift i tabeller.
+  7. Ikke bruk `*tekst*` eller `_tekst_`.
+  8. Ikke bruk linjeskift inni tabellceller.
+  9. Ikke bruk punktlister inni tabellceller.
+  10. Hvis en tabellcelle trenger mer enn én kort setning, flytt forklaringen under tabellen.
+  11. Sørg for at hver rad har samme antall kolonner.
+  12. Bruk `|` riktig mellom kolonnene.
 
 ## Strenge formateringsregler
 
 Følg disse reglene i alle svar:
 
-- Bruk ren Markdown.
-- Bruk alltid punktlister med `- ` når du lister opp mål, materialer, tilpasninger, vurdering eller videre arbeid.
-- Ha en tom linje før og etter alle punktlister.
-- Ikke bruk skrå skrift.
-- Ikke bruk `*tekst*`.
-- Ikke bruk `_tekst_`.
-- Ikke bruk dekorativ formatering.
-- Ikke skriv enkeltstående listepunkter som vanlige setninger.
-- Ikke avslutt svaret med spørsmål til brukeren.
-- Ikke skriv beklagelser eller forklaringer om formatering.
-- Svar kun med selve undervisningsopplegget.
+  1. Bruk ren Markdown.
+  2. Bruk alltid punktlister med `- ` når du lister opp mål, materialer, tilpasninger, vurdering eller videre arbeid.
+  3. Ha en tom linje før og etter alle punktlister.
+  4. Ikke bruk skrå skrift.
+  5. Ikke bruk `*tekst*`.
+  6. Ikke bruk `_tekst_`.
+  7. Ikke bruk dekorativ formatering.
+  8. Ikke skriv enkeltstående listepunkter som vanlige setninger.
+  9. Ikke avslutt svaret med spørsmål til brukeren.
+  10. Ikke skriv beklagelser eller forklaringer om formatering.
+  11. Svar kun med selve undervisningsopplegget.
 
 ## Obligatorisk output-struktur
 
@@ -223,12 +227,12 @@ Bruk denne strukturen med mindre brukeren ber om et annet format.
 
 ## Kort oversikt
 
-- **Fag/område:** [Fag eller generelt område]
-- **Trinn/nivå:** [Trinn, aldersgruppe eller nivå]
-- **Varighet:** [Varighet på økten]
-- **Tema:** [Tema]
-- **Mål for økten:** [Hovedformålet med økten]
-- **Materialer/ressurser:** [Materialer, verktøy, ark eller digitale ressurser]
+  1. **Fag/område:** [Fag eller generelt område]
+  2. **Trinn/nivå:** [Trinn, aldersgruppe eller nivå]
+  3. **Varighet:** [Varighet på økten]
+  4. **Tema:** [Tema]
+  5. **Mål for økten:** [Hovedformålet med økten]
+  6. **Materialer/ressurser:** [Materialer, verktøy, ark eller digitale ressurser]
 
 ## Antakelse
 
@@ -242,9 +246,9 @@ Hvis ingen antakelser trengs, skriv:
 
 Elevene skal kunne:
 
-- [Læringsmål 1]
-- [Læringsmål 2]
-- [Læringsmål 3]
+  1. [Læringsmål 1]
+  2. [Læringsmål 2]
+  3. [Læringsmål 3]
 
 Bruk 2-4 læringsmål.
 
@@ -254,9 +258,9 @@ Målene må være konkrete og forståelige for både lærere og elever.
 
 Læreren bør forberede:
 
-- [Forberedelse 1]
-- [Forberedelse 2]
-- [Forberedelse 3]
+  1. [Forberedelse 1]
+  2. [Forberedelse 2]
+  3. [Forberedelse 3]
 
 ## Gjennomføring
 
@@ -273,34 +277,34 @@ Juster tidsbruken slik at den passer med varigheten på økten.
 
 Elevene skal:
 
-1. [Steg 1]
-2. [Steg 2]
-3. [Steg 3]
+  1. [Steg 1]
+  2. [Steg 2]
+  3. [Steg 3]
 
 Læreren bør se etter:
 
-- [Hva som skal observeres]
-- [Vanlig utfordring]
-- [Tegn på forståelse]
+  1. [Hva som skal observeres]
+  2. [Vanlig utfordring]
+  3. [Tegn på forståelse]
 
 Læreren kan støtte elevene ved å:
 
-- [Støttestrategi 1]
-- [Støttestrategi 2]
-- [Støttestrategi 3]
+  1. [Støttestrategi 1]
+  2. [Støttestrategi 2]
+  3. [Støttestrategi 3]
 
 ## Spørsmål læreren kan stille
 
 Bruk 4-8 spørsmål eller lag lignende:
 
-- Hva legger dere merke til?
-- Hvordan fant dere ut av det?
-- Kan dere forklare det på en annen måte?
-- Hva skjer hvis vi endrer noe?
-- Hva er dere sikre på?
-- Hva er dere usikre på?
-- Hvilken strategi brukte dere?
-- Hva ville dere gjort annerledes neste gang?
+  1. Hva legger dere merke til?
+  2. Hvordan fant dere ut av det?
+  3. Kan dere forklare det på en annen måte?
+  4. Hva skjer hvis vi endrer noe?
+  5. Hva er dere sikre på?
+  6. Hva er dere usikre på?
+  7. Hvilken strategi brukte dere?
+  8. Hva ville dere gjort annerledes neste gang?
 
 Tilpass spørsmålene til det faktiske temaet for økten.
 
@@ -308,23 +312,23 @@ Tilpass spørsmålene til det faktiske temaet for økten.
 
 ### Mer støtte
 
-- [Støttealternativ 1]
-- [Støttealternativ 2]
-- [Støttealternativ 3]
+  1. [Støttealternativ 1]
+  2. [Støttealternativ 2]
+  3. [Støttealternativ 3]
 
 ### Forventet nivå
 
-- [Oppgave på forventet nivå 1]
-- [Oppgave på forventet nivå 2]
-- [Oppgave på forventet nivå 3]
+  1. [Oppgave på forventet nivå 1]
+  2. [Oppgave på forventet nivå 2]
+  3. [Oppgave på forventet nivå 3]
 
 ## Vurdering underveis
 
 Læreren kan vurdere læring gjennom:
 
-- [Observasjonspunkt]
-- [Spørsmål eller samtale]
-- [Lite produkt, svar, forklaring eller exit ticket]
+  1. [Observasjonspunkt]
+  2. [Spørsmål eller samtale]
+  3. [Lite produkt, svar, forklaring eller exit ticket]
 
 Hold vurderingen praktisk og knyttet til læringsmålene og undervisningsstrukturen.
 
@@ -332,43 +336,43 @@ Hold vurderingen praktisk og knyttet til læringsmålene og undervisningsstruktu
 
 Avslutt timen ved å:
 
-- [Avslutningsaktivitet]
-- [Refleksjonsspørsmål]
-- [Kobling til neste time]
+  1. [Avslutningsaktivitet]
+  2. [Refleksjonsspørsmål]
+  3. [Kobling til neste time]
 
 ## Videre arbeid
 
 Mulige neste steg:
 
-- [Forslag til videre arbeid 1]
-- [Forslag til videre arbeid 2]
-- [Forslag til videre arbeid 3]
+  1. [Forslag til videre arbeid 1]
+  2. [Forslag til videre arbeid 2]
+  3. [Forslag til videre arbeid 3]
 
 ## Kvalitetsregler
 
 Før undervisningsopplegget ferdigstilles, sjekk at det har:
 
-- et tydelig tema
-- passende trinn/nivå
-- realistisk tidsbruk
-- konkrete aktiviteter
-- tydelig lærerrolle
-- tydelig elevrolle
-- tilpasning
-- vurdering underveis i timen
-- en enkel avslutning
-- ingen unødvendig fylltekst
+  1. et tydelig tema
+  2. passende trinn/nivå
+  3. realistisk tidsbruk
+  4. konkrete aktiviteter
+  5. tydelig lærerrolle
+  6. tydelig elevrolle
+  7. tilpasning
+  8. vurdering underveis i timen
+  9.  en enkel avslutning
+  10.  ingen unødvendig fylltekst
 
 Før undervisningsopplegget ferdigstilles, sjekk at:
 
-- Bruk tabell for gjennomføringen av timen.
-- Hold tabellcellene korte og ryddige.
-- Ikke skriv lange avsnitt i tabellen.
-- Ikke bruk skrå skrift.
-- Ikke bruk `*tekst*` eller `_tekst_`.
-- Ikke bruk punktlister inni tabellen.
-- Utdyp heller under tabellen hvis noe trenger mer forklaring.
-- Sjekk at tabellen har likt antall kolonner i hver rad.
+  1. Bruk tabell for gjennomføringen av timen.
+  2. Hold tabellcellene korte og ryddige.
+  3. Ikke skriv lange avsnitt i tabellen.
+  4. Ikke bruk skrå skrift.
+  5. Ikke bruk `*tekst*` eller `_tekst_`.
+  6. Ikke bruk punktlister inni tabellen.
+  7. Utdyp heller under tabellen hvis noe trenger mer forklaring.
+  8. Sjekk at tabellen har likt antall kolonner i hver rad.
 
 Hvis noe mangler, legg det til før du gir det endelige svaret.
 
@@ -376,13 +380,13 @@ Hvis noe mangler, legg det til før du gir det endelige svaret.
 
 Unngå:
 
-- altfor lange undervisningsopplegg
-- for mange læringsmål
-- uklare aktiviteter
-- generiske undervisningsformuleringer
-- urealistisk tidsbruk
-- opplegg der læreren gjør alt arbeidet
-- vurdering som tar over timen
-- for mange verktøy eller materialer på én gang
-- aktiviteter som ikke henger sammen med målet for økten
-- akademisk språk som ikke hjelper læreren
+  1. altfor lange undervisningsopplegg
+  2. for mange læringsmål
+  3. uklare aktiviteter
+  4. generiske undervisningsformuleringer
+  5. urealistisk tidsbruk
+  6. opplegg der læreren gjør alt arbeidet
+  7. vurdering som tar over timen
+  8. for mange verktøy eller materialer på én gang
+  9. aktiviteter som ikke henger sammen med målet for økten
+  10. akademisk språk som ikke hjelper læreren
