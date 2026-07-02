@@ -1,391 +1,391 @@
 ---
 name: create-generic-lesson-plan
-description: 'Lag tydelige, praktiske og realistiske undervisningsopplegg på tvers av fag.'
+description: 'Create clear, practical, and realistic lesson plans across subjects.'
 ---
 
-# Lag generelt undervisningsopplegg
+# Create Generic Lesson Plan
 
-## Hovedinstruks
+## Primary Directive
 
-Hvis det står nummererte punkter i formateringsregler eller output-struktur så skriv det med punkter i outputen din.
-Følg output strukturen til punkt og prikke med mindre du må tilpasse tid eller annet liknende.
+If there are numbered points in formatting rules or output structure, write them as bullet points in your output.
+Follow the output structure exactly unless you need to adapt timing or something similar.
 
-Målet ditt er å lage et tydelig, praktisk, realistisk og strukturert undervisningsopplegg for `${input:PlanPurpose}`.
+Your goal is to create a clear, practical, realistic, and structured lesson plan for `${input:PlanPurpose}`.
 
-Undervisningsopplegget må være enkelt for en lærer å forstå, tilpasse og bruke i et ekte klasserom.
+The lesson plan must be easy for a teacher to understand, adapt, and use in a real classroom.
 
-Svaret må unngå vagt undervisningsspråk og må fokusere på konkrete handlinger, realistisk tidsbruk, elevaktivitet, lærerstøtte, tilpasning og vurdering underveis i timen.
+The response must avoid vague teaching language and must focus on concrete actions, realistic timing, student activity, teacher support, differentiation, and assessment during the lesson.
 
-## Utførelsesinnhold
+## Execution Content
 
-Dette skillet er laget for å lage generelle undervisningsopplegg på tvers av fag
+This skill is designed to create general lesson plans across subjects.
 
-Bruk dette skillet når brukeren ber om:
+Use this skill when the user asks for:
 
-  1. en enkelttime
-  2. en dobbeltime
-  3. en ukeplan
-  4. en periodeplan
-  5. en klasseaktivitet
-  6. gruppearbeid
-  7. stasjonsundervisning
-  8. en repetisjonsøkt
-  9. en introduksjonsøkt
-  10. en praktisk økt
-  11. en uteskoleøkt
-  12. en vurderingsaktivitet
+- a single lesson
+- a double lesson
+- a weekly plan
+- a unit plan
+- a classroom activity
+- group work
+- station-based learning
+- a revision lesson
+- an introductory lesson
+- a practical lesson
+- an outdoor lesson
+- an assessment activity
 
-Bruk dette skillet som et generelt grunnskill. Mer spesifikke fag-skills kan bygge videre på dette skillet.
+Use this skill as a general base skill. More specific subject skills can build on top of this skill.
 
-## Grunnkrav
+## Core Requirements
 
-  1. Lag undervisningsopplegg som er praktiske å bruke i et ekte klasserom.
-  2. Bruk tydelige overskrifter, korte seksjoner, tabeller og punktlister.
-  3. Hold planen realistisk for den gitte tidsrammen.
-  4. Inkluder hva læreren gjør og hva elevene gjør.
-  5. Inkluder elevaktivitet, ikke bare lærerforklaring.
-  6. Inkluder tilpasning for ulike elevbehov.
-  7. Inkluder enkel vurdering underveis i timen.
-  8. Inkluder en tydelig start, hoveddel og avslutning.
-  9. Unngå unødvendig teori med mindre brukeren ber om det.
-  10. Ikke lag for mange læringsmål.
-  11. Ikke overfyll opplegget med for mange aktiviteter.
+- Create lesson plans that are practical to use in a real classroom.
+- Use clear headings, short sections, tables, and bullet points.
+- Keep the plan realistic for the given time frame.
+- Include what the teacher does and what the students do.
+- Include student activity, not only teacher explanation.
+- Include differentiation for different student needs.
+- Include simple assessment during the lesson.
+- Include a clear beginning, middle, and ending.
+- Avoid unnecessary theory unless the user asks for it.
+- Do not create too many learning objectives.
+- Do not overload the lesson plan with too many activities.
 
-## Håndtering av input
+## Input Handling
 
-Hvis brukeren gir spesifikke detaljer, bruk dem aktivt.
+If the user provides specific details, use them actively.
 
-Relevante detaljer kan inkludere:
+Relevant details may include:
 
-  1. fag
-  2. trinn
-  3. elevenes alder
-  4. varighet
-  5. tema
-  6. læringsmål
-  7. tilgjengelige materialer
-  8. digitale verktøy
-  9. elevbehov
-  10. klassestørrelse
-  11. vurderingsform
-  12. undervisningsmetode
-  13. språk
-  14. kompetansemål eller læreplankrav
+- subject
+- grade level
+- student age
+- duration
+- topic
+- learning objectives
+- available materials
+- digital tools
+- student needs
+- class size
+- assessment type
+- teaching method
+- language
+- curriculum goals or curriculum requirements
 
-Hvis brukeren gir lite informasjon, gjør rimelige antakelser og skriv dem kort.
+If the user gives little information, make reasonable assumptions and state them briefly.
 
-Ikke stopp svaret med mange oppfølgingsspørsmål med mindre forespørselen er umulig.
+Do not stop the response with many follow-up questions unless the request is impossible.
 
-Eksempel på antakelse:
+Example assumption:
 
-"Jeg tar utgangspunkt i en 45-minutters økt for elever på ungdomstrinnet. Opplegget kan justeres."
+"I assume this is a 45-minute lesson for lower secondary students. The plan can be adjusted."
 
-## Prinsipper for undervisningsdesign
+## Lesson Design Principles
 
-### 1. Gjør planen enkel å følge
+### Make the plan easy to follow
 
-Læreren skal raskt forstå:
+The teacher should quickly understand:
 
-  1. hva timen handler om
-  2. hva elevene skal lære
-  3. hva som må forberedes
-  4. hva som skjer steg for steg
-  5. hvordan opplegget kan tilpasses
+- what the lesson is about
+- what the students should learn
+- what needs to be prepared
+- what happens step by step
+- how the lesson can be adapted
 
-### 2. Hold opplegget realistisk
+### Keep the lesson realistic
 
-Ikke inkluder for mange aktiviteter.
+Do not include too many activities.
 
-For en 45-minutters økt, bruk helst:
+For a 45-minute lesson, preferably use:
 
-  1. 10 minutter til introduksjon og oppsummering av hva som skal skje i timen
-  2. 10 minutter til modellering eller felles eksempel
-  3. 20 minutter til elevaktivitet
-  4. 5 minutter til oppsummering og vurdering
+- 10 minutes for introduction and overview of what will happen in the lesson
+- 10 minutes for modelling or a shared example
+- 20 minutes for student activity
+- 5 minutes for summary and assessment
 
-For lengre økter, legg inn mer tid til utforsking, samarbeid, deling og refleksjon fra elevene.
+For longer lessons, add more time for exploration, collaboration, sharing, and student reflection.
 
-### 3. Start enkelt
+### Start simple
 
-Begynn med noe elevene raskt kan forstå.
+Begin with something the students can understand quickly.
 
-Nyttige starter inkluderer:
+Useful starts include:
 
-  1. et åpent spørsmål
-  2. et bilde
-  3. en kort samtale
-  4. et konkret eksempel
-  5. en enkel demonstrasjon
-  6. en rask oppgave
-  7. en situasjon elevene kjenner igjen
+- an open question
+- an image
+- a short discussion
+- a concrete example
+- a simple demonstration
+- a quick task
+- a situation the students recognize
 
-### 4. Modellér før selvstendig arbeid
+### Model before independent work
 
-Hvis elevene skal gjøre noe nytt, bør læreren modellere det først.
+If students are doing something new, the teacher should model it first.
 
-Læreren kan bruke formuleringer som:
+The teacher can use phrases such as:
 
-  1. "Først ser jeg etter..."
-  2. "Her velger jeg å..."
-  3. "Jeg kan sjekke om dette stemmer ved å..."
-  4. "Nå prøver jeg en annen strategi..."
+- "First, I look for..."
+- "Here, I choose to..."
+- "I can check whether this is correct by..."
+- "Now I try a different strategy..."
 
-### 5. Gjør elevene aktive
+### Make students active
 
-Et godt opplegg bør inkludere:
+A good lesson plan should include:
 
-  1. en tydelig start
-  2. kort lærerinput
-  3. en tydelig oppgave
-  4. elevarbeid
-  5. lærerveiledning
-  6. felles oppsummering
+- a clear start
+- short teacher input
+- a clear task
+- student work
+- teacher guidance
+- shared summary
 
-Unngå opplegg der læreren snakker mesteparten av timen.
+Avoid lesson plans where the teacher talks for most of the lesson.
 
-### 6. Gjør aktivitetene konkrete
+### Make the activities concrete
 
-Unngå vage formuleringer som:
+Avoid vague wording such as:
 
-"Elevene jobber med temaet."
+"Students work with the topic."
 
-Bruk konkrete formuleringer som:
+Use concrete wording such as:
 
-"Elevene jobber i par. Først løser de oppgave 1-3 sammen. Deretter velger de ett svar eller én løsning som de skal forklare til et annet par."
+"Students work in pairs. First, they solve tasks 1-3 together. Then they choose one answer or one solution to explain to another pair."
 
-### 7. Inkluder elevtenkning
+### Include student thinking
 
-Planen bør oppmuntre elevene til å:
+The plan should encourage students to:
 
-  1. forklare
-  2. begrunne
-  3. utforske
-  4. sammenligne
-  5. teste
-  6. forbedre
-  7. samarbeide
-  8. reflektere
+- explain
+- justify
+- explore
+- compare
+- test
+- improve
+- collaborate
+- reflect
 
-## Formateringsregler
+## Formatting Rules
 
-Bruk ren og enkel Markdown-formatering.
+Use clean and simple Markdown formatting.
 
-Følg alltid disse reglene:
+Always follow these rules:
 
-  1. Bruk overskrifter med `##` og `###`.
-  2. Bruk punktlister med tall etterfulgt av ett mellomrom.
-  3. Ha alltid en tom linje før og etter punktlister.
-  4. Ikke bruk skrå skrift.
-  5. Ikke bruk `*tekst*` eller `_tekst_`.
-  6. Ikke bruk dekorativ formatering.
-  7. Ikke bruk fet og skrå skrift sammen.
-  8. Bruk vanlig tekst til lærerbeskrivelser og elevbeskrivelser.
-  9. Hold avsnitt korte og lette å lese.
-  10. Bruk tydelige overskrifter slik at opplegget blir oversiktlig.
+- Use headings with `##` and `###`.
+- Use bullet points with `-` followed by one space.
+- Always add an empty line before and after bullet lists.
+- Do not use italic text.
+- Do not use `*text*` or `_text_`.
+- Do not use decorative formatting.
+- Do not use bold and italic formatting together.
+- Use plain text for teacher descriptions and student descriptions.
+- Keep paragraphs short and easy to read.
+- Use clear headings so the plan becomes easy to navigate.
 
-## Tabellregler
+## Table Rules
 
-Bruk tabell når du viser gjennomføringen av timen, men hold tabellen ryddig og lett å lese.
+Use a table when showing the lesson sequence, but keep the table tidy and easy to read.
 
-Følg alltid disse reglene for tabeller:
+Always follow these table rules:
 
-  1. Bruk Markdown-tabell for gjennomføringen av undervisningsopplegget.
-  2. Hold hver tabellcelle kort.
-  3. Ikke skriv lange avsnitt i tabellceller.
-  4. Bruk korte formuleringer i stedet for lange forklaringer i tabellen.
-  5. Legg detaljerte forklaringer under tabellen, ikke inni tabellen.
-  6. Ikke bruk skrå skrift i tabeller.
-  7. Ikke bruk `*tekst*` eller `_tekst_`.
-  8. Ikke bruk linjeskift inni tabellceller.
-  9. Ikke bruk punktlister inni tabellceller.
-  10. Hvis en tabellcelle trenger mer enn én kort setning, flytt forklaringen under tabellen.
-  11. Sørg for at hver rad har samme antall kolonner.
-  12. Bruk `|` riktig mellom kolonnene.
+- Use a Markdown table for the lesson sequence.
+- Keep each table cell short.
+- Do not write long paragraphs in table cells.
+- Use short phrases instead of long explanations in the table.
+- Put detailed explanations below the table, not inside the table.
+- Do not use italic text in tables.
+- Do not use `*text*` or `_text_`.
+- Do not use line breaks inside table cells.
+- Do not use bullet points inside table cells.
+- If a table cell needs more than one short sentence, move the explanation below the table.
+- Make sure every row has the same number of columns.
+- Use `|` correctly between columns.
 
-## Strenge formateringsregler
+## Strict Formatting Rules
 
-Følg disse reglene i alle svar:
+Follow these rules in all responses:
 
-  1. Bruk ren Markdown.
-  2. Bruk alltid punktlister med `- ` når du lister opp mål, materialer, tilpasninger, vurdering eller videre arbeid.
-  3. Ha en tom linje før og etter alle punktlister.
-  4. Ikke bruk skrå skrift.
-  5. Ikke bruk `*tekst*`.
-  6. Ikke bruk `_tekst_`.
-  7. Ikke bruk dekorativ formatering.
-  8. Ikke skriv enkeltstående listepunkter som vanlige setninger.
-  9. Ikke avslutt svaret med spørsmål til brukeren.
-  10. Ikke skriv beklagelser eller forklaringer om formatering.
-  11. Svar kun med selve undervisningsopplegget.
+- Use clean Markdown.
+- Always use bullet lists with `- ` when listing goals, materials, adaptations, assessment, or follow-up work.
+- Add an empty line before and after all bullet lists.
+- Do not use italic text.
+- Do not use `*text*`.
+- Do not use `_text_`.
+- Do not use decorative formatting.
+- Do not write individual list items as normal sentences.
+- Do not end the response with a question to the user.
+- Do not write apologies or explanations about formatting.
+- Respond only with the lesson plan itself.
 
-## Obligatorisk output-struktur
+## Mandatory Output Structure
 
-Bruk denne strukturen med mindre brukeren ber om et annet format.
+Use this structure unless the user asks for another format.
 
-# Undervisningsopplegg: [Tittel]
+# Lesson Plan: [Title]
 
-## Kort oversikt
+## Quick Overview
 
-  1. Fag/område: [Fag eller generelt område]
-  2. Trinn/nivå: [Trinn, aldersgruppe eller nivå]
-  3. Varighet: [Varighet på økten]
-  4. Tema: [Tema]
-  5. Mål for økten: [Hovedformålet med økten]
-  6. Materialer/ressurser: [Materialer, verktøy, ark eller digitale ressurser]
+- Subject/area: [Subject or general area]
+- Grade/level: [Grade, age group, or level]
+- Duration: [Lesson duration]
+- Topic: [Topic]
+- Lesson goal: [Main purpose of the lesson]
+- Materials/resources: [Materials, tools, worksheets, or digital resources]
 
-## Antakelse
+## Assumption
 
-Skriv hvilke antakelser som er gjort fordi brukeren ikke ga nok informasjon.
+State what assumptions have been made because the user did not provide enough information.
 
-Hvis ingen antakelser trengs, skriv:
+If no assumptions are needed, write:
 
-"Ingen større antakelser er nødvendig."
+"No major assumptions are needed."
 
-## Læringsmål
+## Learning Objectives
 
-Elevene skal kunne:
+Students will be able to:
 
-  1. [Læringsmål 1]
-  2. [Læringsmål 2]
-  3. [Læringsmål 3]
+- [Learning objective 1]
+- [Learning objective 2]
+- [Learning objective 3]
 
-Bruk 2-4 læringsmål.
+Use 2-4 learning objectives.
 
-Målene må være konkrete og forståelige for både lærere og elever.
+The objectives must be concrete and understandable for both teachers and students.
 
-## Før timen
+## Before the Lesson
 
-Læreren bør forberede:
+The teacher should prepare:
 
-  1. [Forberedelse 1]
-  2. [Forberedelse 2]
-  3. [Forberedelse 3]
+- [Preparation 1]
+- [Preparation 2]
+- [Preparation 3]
 
-## Gjennomføring
+## Lesson Sequence
 
-| Tid | Del | Hva skjer? | Lærerens rolle | Elevenes rolle |
+| Time | Part | What happens? | Teacher's role | Students' role |
 |---|---|---|---|---|
-| 0-10 min | Introduksjon | [Hva skjer] | [Lærerhandling] | [Elevhandling] |
-| 10-20 min| Modellering/felles eksempel | [Hva skjer] | [Lærerhandling] | [Elevhandling] |
-| 20-40 min| Hovedaktivitet | [Hva skjer] | [Lærerhandling] | [Elevhandling] |
-| 40-45 min| Oppsummering | [Hva skjer] | [Lærerhandling] | [Elevhandling] |
+| 0-10 min | Introduction | [What happens] | [Teacher action] | [Student action] |
+| 10-20 min | Modelling/shared example | [What happens] | [Teacher action] | [Student action] |
+| 20-40 min | Main activity | [What happens] | [Teacher action] | [Student action] |
+| 40-45 min | Summary | [What happens] | [Teacher action] | [Student action] |
 
-Juster tidsbruken slik at den passer med varigheten på økten.
+Adjust the timing so it fits the duration of the lesson.
 
-## Hovedaktivitet
+## Main Activity
 
-Elevene skal:
+Students will:
 
-  1. [Steg 1]
-  2. [Steg 2]
-  3. [Steg 3]
+- [Step 1]
+- [Step 2]
+- [Step 3]
 
-Læreren bør se etter:
+The teacher should look for:
 
-  1. [Hva som skal observeres]
-  2. [Vanlig utfordring]
-  3. [Tegn på forståelse]
+- [What should be observed]
+- [Common difficulty]
+- [Signs of understanding]
 
-Læreren kan støtte elevene ved å:
+The teacher can support students by:
 
-  1. [Støttestrategi 1]
-  2. [Støttestrategi 2]
-  3. [Støttestrategi 3]
+- [Support strategy 1]
+- [Support strategy 2]
+- [Support strategy 3]
 
-## Spørsmål læreren kan stille
+## Questions the Teacher Can Ask
 
-Bruk 4-8 spørsmål eller lag lignende:
+Use 4-8 questions or create similar ones:
 
-  1. Hva legger dere merke til?
-  2. Hvordan fant dere ut av det?
-  3. Kan dere forklare det på en annen måte?
-  4. Hva skjer hvis vi endrer noe?
-  5. Hva er dere sikre på?
-  6. Hva er dere usikre på?
-  7. Hvilken strategi brukte dere?
-  8. Hva ville dere gjort annerledes neste gang?
+- What do you notice?
+- How did you figure that out?
+- Can you explain it in another way?
+- What happens if we change something?
+- What are you sure about?
+- What are you unsure about?
+- Which strategy did you use?
+- What would you do differently next time?
 
-Tilpass spørsmålene til det faktiske temaet for økten.
+Adapt the questions to the actual topic of the lesson.
 
-## Tilpasning
+## Differentiation
 
-### Mer støtte
+### More Support
 
-  1. [Støttealternativ 1]
-  2. [Støttealternativ 2]
-  3. [Støttealternativ 3]
+- [Support option 1]
+- [Support option 2]
+- [Support option 3]
 
-### Forventet nivå
+### Expected Level
 
-  1. [Oppgave på forventet nivå 1]
-  2. [Oppgave på forventet nivå 2]
-  3. [Oppgave på forventet nivå 3]
+- [Task at expected level 1]
+- [Task at expected level 2]
+- [Task at expected level 3]
 
-## Vurdering underveis
+## Assessment During the Lesson
 
-Læreren kan vurdere læring gjennom:
+The teacher can assess learning through:
 
-  1. [Observasjonspunkt]
-  2. [Spørsmål eller samtale]
-  3. [Lite produkt, svar, forklaring eller exit ticket]
+- [Observation point]
+- [Question or discussion]
+- [Small product, answer, explanation, or exit ticket]
 
-Hold vurderingen praktisk og knyttet til læringsmålene og undervisningsstrukturen.
+Keep the assessment practical and connected to the learning objectives and lesson structure.
 
-## Avslutning av timen
+## Ending the Lesson
 
-Avslutt timen ved å:
+End the lesson by:
 
-  1. [Avslutningsaktivitet]
-  2. [Refleksjonsspørsmål]
-  3. [Kobling til neste time]
+- [Ending activity]
+- [Reflection question]
+- [Connection to the next lesson]
 
-## Videre arbeid
+## Follow-Up Work
 
-Mulige neste steg:
+Possible next steps:
 
-  1. [Forslag til videre arbeid 1]
-  2. [Forslag til videre arbeid 2]
-  3. [Forslag til videre arbeid 3]
+- [Follow-up idea 1]
+- [Follow-up idea 2]
+- [Follow-up idea 3]
 
-## Kvalitetsregler
+## Quality Rules
 
-Før undervisningsopplegget ferdigstilles, sjekk at det har:
+Before finalizing the lesson plan, check that it has:
 
-  1. et tydelig tema
-  2. passende trinn/nivå
-  3. realistisk tidsbruk
-  4. konkrete aktiviteter
-  5. tydelig lærerrolle
-  6. tydelig elevrolle
-  7. tilpasning
-  8. vurdering underveis i timen
-  9.  en enkel avslutning
-  10.  ingen unødvendig fylltekst
+- a clear topic
+- appropriate grade level
+- realistic timing
+- concrete activities
+- clear teacher role
+- clear student role
+- differentiation
+- assessment during the lesson
+- a simple ending
+- no unnecessary filler text
 
-Før undervisningsopplegget ferdigstilles, sjekk at:
+Before finalizing the lesson plan, check that:
 
-  1. Bruk tabell for gjennomføringen av timen.
-  2. Hold tabellcellene korte og ryddige.
-  3. Ikke skriv lange avsnitt i tabellen.
-  4. Ikke bruk skrå skrift.
-  5. Ikke bruk `*tekst*` eller `_tekst_`.
-  6. Ikke bruk punktlister inni tabellen.
-  7. Utdyp heller under tabellen hvis noe trenger mer forklaring.
-  8. Sjekk at tabellen har likt antall kolonner i hver rad.
+- Use a table for the lesson sequence.
+- Keep table cells short and tidy.
+- Do not write long paragraphs in the table.
+- Do not use italic text.
+- Do not use `*text*` or `_text_`.
+- Do not use bullet points inside the table.
+- Add details below the table instead if something needs more explanation.
+- Check that the table has the same number of columns in each row.
 
-Hvis noe mangler, legg det til før du gir det endelige svaret.
+If something is missing, add it before giving the final response.
 
-## Unngå
+## Avoid
 
-Unngå:
+Avoid:
 
-  1. altfor lange undervisningsopplegg
-  2. for mange læringsmål
-  3. uklare aktiviteter
-  4. generiske undervisningsformuleringer
-  5. urealistisk tidsbruk
-  6. opplegg der læreren gjør alt arbeidet
-  7. vurdering som tar over timen
-  8. for mange verktøy eller materialer på én gang
-  9. aktiviteter som ikke henger sammen med målet for økten
-  10. akademisk språk som ikke hjelper læreren
+- lesson plans that are too long
+- too many learning objectives
+- unclear activities
+- generic teaching phrases
+- unrealistic timing
+- lesson plans where the teacher does all the work
+- assessment that takes over the lesson
+- too many tools or materials at once
+- activities that do not connect to the goal of the lesson
+- academic language that does not help the teacher
